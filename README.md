@@ -2,7 +2,7 @@
 
 ### Scenario: Matching Socks
 
-A merchant has a big pile of socks she wants to pair up and wants keep in a pile as organized pairs. Pairing up the
+A merchant has a big pile of socks she wants to pair up and wants to keep in a pile as organized pairs. Pairing up the
 socks is based on their color (two socks of the same color will be paired up).
 
 ### Interpretation
