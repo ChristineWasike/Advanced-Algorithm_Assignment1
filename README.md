@@ -1,4 +1,4 @@
-# Advanced Algorithms Assignment1
+# Advanced Algorithms Assignment 1
 
 ### Scenario: Matching Socks
 
