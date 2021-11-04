@@ -4,9 +4,16 @@ from numpy.random import randint
 
 
 def sock_merchant(n, arr):
+    # Initialize a hashtable to store the different colors and
+    # how often they occur from the pile
     sock_dict = {}
+
+    # Initialize a variable to keep track of the number of matched pairs
     pairs = 0
+
+    # no_of_socks -> size of the array of coloured socks
     for i in range(n):  # O(n)
+        # Check if element is in dictionary
         if arr[i] not in sock_dict:  # O(1)
             sock_dict[arr[i]] = 1
         else:
@@ -14,6 +21,7 @@ def sock_merchant(n, arr):
     print(sock_dict)
 
     for key, value in sock_dict.items():
+        # using the floor division to return a whole number
         pairs += (value // 2)
 
     return pairs
